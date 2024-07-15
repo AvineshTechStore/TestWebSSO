@@ -1,0 +1,29 @@
+2024-07-13 01:39:36.644 +05:30 [INF] User profile is available. Using 'C:\Users\avinesh.g\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-13 01:39:37.923 +05:30 [INF] Now listening on: https://localhost:7233
+2024-07-13 01:39:37.924 +05:30 [INF] Now listening on: http://localhost:5118
+2024-07-13 01:39:37.927 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-13 01:39:37.928 +05:30 [INF] Hosting environment: Production
+2024-07-13 01:39:37.928 +05:30 [INF] Content root path: D:\BPLSWebSSOApp\BPLSWebSSOApp
+2024-07-13 01:39:49.224 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7233/Account - null null
+2024-07-13 01:39:49.502 +05:30 [INF] #Info::-------------------------------------------------------------------------------------------
+2024-07-13 01:39:49.503 +05:30 [INF] Authentication Properties:Information provided in middle layer....
+2024-07-13 01:39:49.503 +05:30 [INF] SignInScheme:Cookies
+2024-07-13 01:39:49.504 +05:30 [INF] Authority:https://dev-37762427.okta.com/oauth2/default
+2024-07-13 01:39:49.504 +05:30 [INF] ClientId:0oai1zonk3NKnzivp5d7
+2024-07-13 01:39:49.504 +05:30 [INF] ClientSecret:PaCzQWutA_gCJWIA_qiw24KqYyRf_z-J_Sh5cis3m8kJ8_Tu0RS47yQoEsLk5NUT
+2024-07-13 01:39:49.504 +05:30 [INF] CallbackPath:/signin-oidc
+2024-07-13 01:39:49.504 +05:30 [INF] ResponseType:code
+2024-07-13 01:39:49.504 +05:30 [INF] ResponseMode:query
+2024-07-13 01:39:49.505 +05:30 [INF] Scope:openid profile email
+2024-07-13 01:39:49.505 +05:30 [INF] SaveTokens:CookieAuthenticationDefaults.AuthenticationScheme
+2024-07-13 01:39:49.505 +05:30 [INF] GetClaimsFromUserInfoEndpoint:true
+2024-07-13 01:39:49.505 +05:30 [INF] RequireHttpsMetadata:false
+2024-07-13 01:39:49.505 +05:30 [INF] ###::-------------------------------------------------------------------------------------------
+2024-07-13 01:39:49.519 +05:30 [INF] Executing endpoint 'BPLSWebSSOApp.Controllers.AccountController.Login (BPLSWebSSOApp)'
+2024-07-13 01:39:49.538 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller BPLSWebSSOApp.Controllers.AccountController (BPLSWebSSOApp).
+2024-07-13 01:39:49.542 +05:30 [INF] Executing ChallengeResult with authentication schemes (["OpenIdConnect"]).
+2024-07-13 01:39:50.979 +05:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2024-07-13 01:39:50.984 +05:30 [INF] Executed action BPLSWebSSOApp.Controllers.AccountController.Login (BPLSWebSSOApp) in 1442.6866ms
+2024-07-13 01:39:50.985 +05:30 [INF] Executed endpoint 'BPLSWebSSOApp.Controllers.AccountController.Login (BPLSWebSSOApp)'
+2024-07-13 01:39:50.987 +05:30 [INF] HTTP GET /Account responded 302 in 1598.2907 ms
+2024-07-13 01:39:50.990 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7233/Account - 302 0 null 1771.1284ms

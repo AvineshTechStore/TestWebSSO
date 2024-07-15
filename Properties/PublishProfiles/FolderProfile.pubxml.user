@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\BPLSWebSSOApp\BPLSWebSSOApp\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-07-12T20:11:14.6769470Z;True|2024-07-13T01:26:23.1591088+05:30;True|2024-07-12T18:46:13.8382374+05:30;True|2024-07-11T21:29:20.6196592+05:30;True|2024-07-11T21:12:11.1540368+05:30;True|2024-07-11T20:44:54.7121155+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,34 @@
+Okta Login URL -
+https://dev-37762427-admin.okta.com/
+Login - avinesh.gupta@odessainc.com
+Pwd - Sb...59...*
+
+Discovery Endpoint-
+https://dev-37762427.okta.com/oauth2/default/.well-known/oauth-authorization-server
+
+Client ID - 0oai1zonk3NKnzivp5d7
+Client Secret - PaCzQWutA_gCJWIA_qiw24KqYyRf_z-J_Sh5cis3m8kJ8_Tu0RS47yQoEsLk5NUT
+Redirect URL - https://localhost:7233/signin-oidc
+Sign-out Redirect URL - https://localhost:7233/signout-callback-oidc
+
+.....
+AppSettings.json
+
+{
+  "OpenIDConnect": {
+    "ClientId": "0oai1zonk3NKnzivp5d7",
+    "ClientSecret": "PaCzQWutA_gCJWIA_qiw24KqYyRf_z-J_Sh5cis3m8kJ8_Tu0RS47yQoEsLk5NUT",
+    "Issuer": "https://dev-37762427.okta.com/oauth2/default",
+    "Scope": "openid profile email",
+    "PostLogoutRedirectUri": "https://localhost:5118",
+    "TokenEndpoint": "https://dev-37762427.okta.com/oauth2/v1/token",
+    "RedirectURL": "/signin-oidc"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

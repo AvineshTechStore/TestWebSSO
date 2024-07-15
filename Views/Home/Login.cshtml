@@ -1,0 +1,25 @@
+﻿@model LoginModel
+@{
+    ViewData["Title"] = "Login Page";
+
+    <style type="text/css">
+        button {
+            width: 200px;
+        }
+    </style>
+
+    <h1>User Details</h1>
+   
+    <h3>
+        <p>Given Name: @Model.GivenName</p>
+        <p>Family Name: @Model.FamilyName</p>
+    </h3>
+
+    // <form method="post">
+    //     <p><button value="RefreshToken" asp-page-handler="RefreshToken">Refresh Token</button></p>
+    //     <p><button value="Logout" asp-page-handler="Logout">Logout</button></p>
+    // </form>
+}
+
+@* <p>Current Access Token: @Model.AccessToken</p>
+<p>Current Refresh Token: @Model.RefreshToken</p> *@

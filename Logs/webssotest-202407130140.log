@@ -1,0 +1,33 @@
+2024-07-13 01:40:00.084 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7233/signin-oidc?code=x3BoPave2ASdPAy-i7XnrNUqbW7gGKhVGD0HnppidU0&state=CfDJ8Ju-YjURQ7BDtqLyGNCWEBsdjSUdHpegcClVdpa_nuyNbsETXRMWmOU4xnzNSk4pOoH3Dhgc68yIdrTOYDJMFYnA3CC1l84xigC5GlF31ctfigJryWAG1z0uXYJhClVpMWGd9I5_x1wWOQUPOSrcZPHammo-scrSVc5TXrhlshfhsWbCNudECO6eidYu762rYByzbwT3RtuWcXsF6JaOnng1j3dhbEv7JfU5Zh1lArXYYXSrNlGe359ygXwGfNHizIHS9-y_UnbwwL2W8jhKCuKLIPSu4pB-jn7H-hAG8qB8YODjBMTeKU_yPVVU-9rNiksojzz0Zm1wFYoMGWdPyQzAQWE_NLhR72TgrYFCUJV10Vv6i8VDg5AFeE_EZXIkWw - null null
+2024-07-13 01:40:01.242 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2024-07-13 01:40:01.242 +05:30 [INF] HTTP GET /signin-oidc responded 302 in 1148.5856 ms
+2024-07-13 01:40:01.244 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7233/signin-oidc?code=x3BoPave2ASdPAy-i7XnrNUqbW7gGKhVGD0HnppidU0&state=CfDJ8Ju-YjURQ7BDtqLyGNCWEBsdjSUdHpegcClVdpa_nuyNbsETXRMWmOU4xnzNSk4pOoH3Dhgc68yIdrTOYDJMFYnA3CC1l84xigC5GlF31ctfigJryWAG1z0uXYJhClVpMWGd9I5_x1wWOQUPOSrcZPHammo-scrSVc5TXrhlshfhsWbCNudECO6eidYu762rYByzbwT3RtuWcXsF6JaOnng1j3dhbEv7JfU5Zh1lArXYYXSrNlGe359ygXwGfNHizIHS9-y_UnbwwL2W8jhKCuKLIPSu4pB-jn7H-hAG8qB8YODjBMTeKU_yPVVU-9rNiksojzz0Zm1wFYoMGWdPyQzAQWE_NLhR72TgrYFCUJV10Vv6i8VDg5AFeE_EZXIkWw - 302 0 null 1160.7502ms
+2024-07-13 01:40:01.254 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7233/Account - null null
+2024-07-13 01:40:01.263 +05:30 [INF] Executing endpoint 'BPLSWebSSOApp.Controllers.AccountController.Login (BPLSWebSSOApp)'
+2024-07-13 01:40:01.264 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller BPLSWebSSOApp.Controllers.AccountController (BPLSWebSSOApp).
+2024-07-13 01:40:01.282 +05:30 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2024-07-13 01:40:01.283 +05:30 [INF] Executed action BPLSWebSSOApp.Controllers.AccountController.Login (BPLSWebSSOApp) in 18.5444ms
+2024-07-13 01:40:01.283 +05:30 [INF] Executed endpoint 'BPLSWebSSOApp.Controllers.AccountController.Login (BPLSWebSSOApp)'
+2024-07-13 01:40:01.283 +05:30 [INF] HTTP GET /Account responded 302 in 26.2263 ms
+2024-07-13 01:40:01.283 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7233/Account - 302 0 null 29.3337ms
+2024-07-13 01:40:01.287 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7233/Home/Index - null null
+2024-07-13 01:40:01.291 +05:30 [INF] Executing endpoint 'BPLSWebSSOApp.Controllers.HomeController.Index (BPLSWebSSOApp)'
+2024-07-13 01:40:01.295 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BPLSWebSSOApp.Controllers.HomeController (BPLSWebSSOApp).
+2024-07-13 01:40:01.308 +05:30 [INF] #Info:-------------------------------------------------------------------------------------------
+2024-07-13 01:40:01.308 +05:30 [INF] Received response from IDP server..
+2024-07-13 01:40:01.309 +05:30 [INF] GivenName:Ashish, FamilyName:Gupta, Email:ag001@gmail.com
+2024-07-13 01:40:01.310 +05:30 [INF] ###:-------------------------------------------------------------------------------------------
+2024-07-13 01:40:01.321 +05:30 [INF] Executing ViewResult, running view Index.
+2024-07-13 01:40:01.429 +05:30 [INF] Executed ViewResult - view Index executed in 114.2821ms.
+2024-07-13 01:40:01.429 +05:30 [INF] Executed action BPLSWebSSOApp.Controllers.HomeController.Index (BPLSWebSSOApp) in 133.2152ms
+2024-07-13 01:40:01.429 +05:30 [INF] Executed endpoint 'BPLSWebSSOApp.Controllers.HomeController.Index (BPLSWebSSOApp)'
+2024-07-13 01:40:01.430 +05:30 [INF] HTTP GET /Home/Index responded 200 in 140.0047 ms
+2024-07-13 01:40:01.437 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7233/Home/Index - 200 null text/html; charset=utf-8 150.6037ms
+2024-07-13 01:40:01.499 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7233/BPLSWebSSOApp.styles.css - null null
+2024-07-13 01:40:01.500 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7233/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-13 01:40:01.505 +05:30 [INF] HTTP GET /BPLSWebSSOApp.styles.css responded 404 in 5.4823 ms
+2024-07-13 01:40:01.506 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7233/_vs/browserLink - null null
+2024-07-13 01:40:01.506 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7233/BPLSWebSSOApp.styles.css - 404 0 null 6.6244ms
+2024-07-13 01:40:01.507 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7233/BPLSWebSSOApp.styles.css, Response status code: 404
+2024-07-13 01:40:01.524 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7233/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 23.4505ms
+2024-07-13 01:40:01.594 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7233/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.0648ms

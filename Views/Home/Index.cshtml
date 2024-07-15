@@ -1,0 +1,39 @@
+﻿@model LoginModel
+@{
+    ViewData["Title"] = "Login Home Page";
+
+    <h2 class="text-center">Web SSO - Test Application</h2>
+    <hr />
+    <h3>User Details</h3>
+    <hr/>
+    <div class="row">
+        <div class="col">
+            <!-- Name input -->
+            <div data-mdb-input-init class="form-outline">
+                <input type="text" id="form8Example3" value="@Model.GivenName" class="form-control" readonly="readonly" />
+                <label class="form-label" for="form8Example3">Given Name</label>
+            </div>
+        </div>
+        <div class="col">
+            <!-- Name input -->
+            <div data-mdb-input-init class="form-outline">
+                <input type="text" id="form8Example4" value="@Model.FamilyName" class="form-control" readonly="readonly" />
+                <label class="form-label" for="form8Example4">Family Name</label>
+            </div>
+        </div>
+        <div class="col">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline">
+                <input type="email" id="form8Example5" class="form-control" value="@Model.Email" readonly="readonly" />
+                <label class="form-label" for="form8Example5">Email address</label>
+            </div>
+        </div>
+    </div>
+    // <form method="post">
+    //     <p><button value="RefreshToken" asp-page-handler="RefreshToken">Refresh Token</button></p>
+    //     <p><button value="Logout" asp-page-handler="Logout">Logout</button></p>
+    // </form>
+}
+
+@* <p>Current Access Token: @Model.AccessToken</p>
+<p>Current Refresh Token: @Model.RefreshToken</p> *@
